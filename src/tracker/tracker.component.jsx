@@ -1,63 +1,63 @@
 import { useState } from 'react'
-import data from '../../public/demons.json'
-import { TrackerRootContainer, TrackerListContainer, TrackerFields } from './tracker.styles';
+import data from '../assets/demons.json'
+import picture from '../assets/01-Arcade.png';
+import {
+    TrackerRootContainer,
+    TrackerListContainer,
+    TrackerFields,
+    TrackerAreaBoxes,
+    TrackerFieldsBox
+} from './tracker.styles';
 
 function Tracker() {
-  const [total, setTotal] = useState(0);
+    const [clickedDemons, setClickedDemons] = useState({});
 
-  let handleOnChange = (id) => {
-    let checkboxes = Array.from(document.querySelectorAll('input[id='+id+']'));
-    let state = true
-    checkboxes.map((value) => {
-      value.checked = state
-    })
-    state ? setTotal(total +1) : setTotal(total -1)
-  }
+    const handleDemonClick = (demonId) => {
+        setClickedDemons((prevClickedDemons) => ({
+            ...prevClickedDemons,
+            [demonId]: !prevClickedDemons[demonId],
+        }));
+    };
 
-  let firstLetterUppercase = (name) => {
-    return name.charAt(0).toUpperCase() + name.slice(1);
+    const totalClicked = Object.values(clickedDemons).filter(Boolean).length;
 
-  }
-
-  let toggleFieldsBox = (id) => {
-    var current = document.getElementById(id);
-    console.log(current.className)
-    console.log(current.className.includes("active"))
-    if(current.className.includes("active"))
-      current.className = "";
-    else{
-        current.className += "active";
-    }
-  }
-
-  return (
-    <TrackerRootContainer>
-      <header>
-        <h3>Shin Megami Tensei - Demon Tracker</h3>
-      </header>
-      <TrackerListContainer>
-        {Object.entries(data).map(([area, demons]) => {
-          return (<fieldset>
-          <legend id={area} onClick={() => toggleFieldsBox(area)}>{area}:</legend>
-
-            <div className='tracker-fields'>
-              {demons.map((value) => {
-                return (<div>
-                  <input type="checkbox" id={value} name={value} onClick={() => handleOnChange(value)} />
-                  <label for={value}>{firstLetterUppercase(value)}</label>
-                </div>)
-              })}
-            </div>
-          </fieldset>)
-        })}
-      </TrackerListContainer>
-      <br></br>
-      <footer>
-        <h3>Total: {total} / 155</h3>
-      </footer>
-    
-    </TrackerRootContainer>
-  )
+    return (
+        <TrackerRootContainer>
+            <header>
+                <h1>Shin Megami Tensei 1 - Demon Tracker</h1>
+            </header>
+            <TrackerListContainer>
+                {Object.entries(data.data).map(([area, demons]) => {
+                    return (<div key={area+"demons"}>
+                        <h3>{area}</h3>
+                        <TrackerAreaBoxes>
+                            <img src={picture}></img>
+                            <TrackerFieldsBox>
+                                {demons.map((demon) => (
+                                    <TrackerFields key={area + demon.id}>
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                checked={clickedDemons[demon.id]}
+                                                onChange={() => handleDemonClick(demon.id)}
+                                            />
+                                            <span className="checkmark"></span>
+                                            {demon.name}
+                                        </label>
+                                    </TrackerFields>
+                                ))}
+                            </TrackerFieldsBox>
+                        </TrackerAreaBoxes>
+                    </div>)
+                })}
+        </TrackerListContainer>
+    <br/>
+    <footer>
+        <h3>Total: {totalClicked} / {data.totalDemons}</h3>
+    </footer>
+</TrackerRootContainer>
+)
+    ;
 }
 
 export default Tracker

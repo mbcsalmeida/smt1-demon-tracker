@@ -1,13 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import Tracker from "./tracker/tracker.component.jsx";
+import {TrackerLayout} from "./tracker/tracker-layout.component.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Tracker />
+      <TrackerLayout />
     </>
   )
 }
