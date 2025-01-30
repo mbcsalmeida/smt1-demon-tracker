@@ -1,22 +1,39 @@
-import { useState } from 'react'
-import data from '../assets/demons.json'
-import picture from '../assets/01-Arcade.png';
+import data from "../demons.json"
+
+import { useState, useEffect } from 'react'
 import {
     TrackerRootContainer,
     TrackerListContainer,
-    TrackerFields,
+    TrackerContent,
     TrackerAreaBoxes,
-    TrackerFieldsBox
 } from './tracker.styles';
+import ResetButton from './reset-button.component'
 
 function Tracker() {
-    const [clickedDemons, setClickedDemons] = useState({});
+    const [clickedDemons, setClickedDemons] = useState(() => {
+        // Load clicked demons from local storage or default to an empty object
+        const storedClickedDemons = localStorage.getItem('smt1Demons');
+        return storedClickedDemons ? JSON.parse(storedClickedDemons) : {};
+    });
+
+    useEffect(() => {
+        const saveToLocalStorage = () => {
+            localStorage.setItem('clickedDemons', JSON.stringify(clickedDemons));
+        };
+
+        window.addEventListener('beforeunload', saveToLocalStorage);
+
+        return () => {
+            window.removeEventListener('beforeunload', saveToLocalStorage);
+        };
+    }, [clickedDemons]);
 
     const handleDemonClick = (demonId) => {
         setClickedDemons((prevClickedDemons) => ({
             ...prevClickedDemons,
             [demonId]: !prevClickedDemons[demonId],
         }));
+        console.log(clickedDemons)
     };
 
     const totalClicked = Object.values(clickedDemons).filter(Boolean).length;
@@ -26,34 +43,51 @@ function Tracker() {
             <header>
                 <h1>Shin Megami Tensei 1 - Demon Tracker</h1>
             </header>
+            <TrackerContent>
+            <h3>199X</h3>
             <TrackerListContainer>
-                {Object.entries(data.data).map(([area, demons]) => {
-                    return (<div key={area+"demons"}>
-                        <h3>{area}</h3>
-                        <TrackerAreaBoxes>
-                            <img src={picture}></img>
-                            <TrackerFieldsBox>
-                                {demons.map((demon) => (
-                                    <TrackerFields key={area + demon.id}>
-                                        <label>
-                                            <input
-                                                type="checkbox"
-                                                checked={clickedDemons[demon.id]}
-                                                onChange={() => handleDemonClick(demon.id)}
-                                            />
-                                            <span className="checkmark"></span>
-                                            {demon.name}
-                                        </label>
-                                    </TrackerFields>
-                                ))}
-                            </TrackerFieldsBox>
+                {Object.values(data["199X"]).map((demon) => {
+                    return (<div key={demon.id} onClick={() => handleDemonClick(demon.id)} >
+                        
+                        <TrackerAreaBoxes className={clickedDemons[demon.id] ? "clicked" : ""}>
+                            <img src={demon.url} alt={demon.name}></img>
+                            <h4>{demon.name}</h4>
+                        </TrackerAreaBoxes>
+                        
+                    </div>)
+                })}
+            </TrackerListContainer>
+
+            <h3>Pre-Flood Tokyo</h3>
+            <TrackerListContainer>
+                {Object.values(data["Pre-Flood Tokyo"]).map((demon) => {
+                    return (<div key={demon.id}>
+                        
+                        <TrackerAreaBoxes onClick={handleDemonClick}>
+                            <img src={demon.url}></img>
+                            <h4>{demon.name}</h4>
                         </TrackerAreaBoxes>
                     </div>)
                 })}
-        </TrackerListContainer>
+            </TrackerListContainer>
+
+            <h3>Flooded Tokyo</h3>
+            <TrackerListContainer>
+                {Object.values(data["Flooded Tokyo"]).map((demon) => {
+                    return (<div key={demon.id}>
+                        
+                        <TrackerAreaBoxes onClick={handleDemonClick}>
+                            <img src={demon.url}></img>
+                            <h4>{demon.name}</h4>
+                        </TrackerAreaBoxes>
+                    </div>)
+                })}
+            </TrackerListContainer>
+            </TrackerContent>
     <br/>
     <footer>
-        <h3>Total: {totalClicked} / {data.totalDemons}</h3>
+        <h3>Total: {totalClicked} / {data["totalDemons"]}</h3>
+        <ResetButton resetCallback={() => setClickedDemons({})} />
     </footer>
 </TrackerRootContainer>
 )
