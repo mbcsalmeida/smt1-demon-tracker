@@ -29,7 +29,7 @@
       {
         "id": 5,
         "name": "Mou Ryou",
-        "url": "/src/sprites/mouryou.png"
+        "url": "/src/sprites/mouryo.png"
       },
       {
         "id": 6,
@@ -746,8 +746,8 @@
       },
       {
         "id": 144,
-        "name": "Quetzacoatl",
-        "url": "/src/sprites/quetzacoatl.png"
+        "name": "Quetzalcoatl",
+        "url": "/src/sprites/quetzalcoatl.png"
       },
       {
         "id": 145,
