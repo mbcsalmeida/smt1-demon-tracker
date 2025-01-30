@@ -4,236 +4,236 @@
       {
         "id": 0,
         "name": "Knocker",
-        "url": "/src/sprites/knocker.png"
+        "url": "/sprites/knocker.png"
       },
       {
         "id": 1,
         "name": "Pixie",
-        "url": "/src/sprites/pixie.png"
+        "url": "/sprites/pixie.png"
       },
       {
         "id": 2,
         "name": "Brownie",
-        "url": "/src/sprites/brownie.png"
+        "url": "/sprites/brownie.png"
       },
       {
         "id": 3,
         "name": "Ghost",
-        "url": "/src/sprites/ghost.png"
+        "url": "/sprites/ghost.png"
       },
       {
         "id": 4,
         "name": "Zombie",
-        "url": "/src/sprites/zombie.png"
+        "url": "/sprites/zombie.png"
       },
       {
         "id": 5,
         "name": "Mou Ryou",
-        "url": "/src/sprites/mouryo.png"
+        "url": "/sprites/mouryo.png"
       },
       {
         "id": 6,
         "name": "Yakuza",
-        "url": "/src/sprites/yakuza.png"
+        "url": "/sprites/yakuza.png"
       },
       {
         "id": 7,
         "name": "Thug",
-        "url": "/src/sprites/thug.png"
+        "url": "/sprites/thug.png"
       },
       {
         "id": 8,
         "name": "Weredog",
-        "url": "/src/sprites/weredog.png"
+        "url": "/sprites/weredog.png"
       },
       {
         "id": 9,
         "name": "Preta",
-        "url": "/src/sprites/preta.png"
+        "url": "/sprites/preta.png"
       },
       {
         "id": 10,
         "name": "Goblin",
-        "url": "/src/sprites/goblin.png"
+        "url": "/sprites/goblin.png"
       },
       {
         "id": 11,
         "name": "Andras",
-        "url": "/src/sprites/andras.png"
+        "url": "/sprites/andras.png"
       },
       {
         "id": 12,
         "name": "Kobold",
-        "url": "/src/sprites/kobold.png"
+        "url": "/sprites/kobold.png"
       },
       {
         "id": 13,
         "name": "Gremlin",
-        "url": "/src/sprites/gremlin.png"
+        "url": "/sprites/gremlin.png"
       },
       {
         "id": 14,
         "name": "Dryad",
-        "url": "/src/sprites/dryad.png"
+        "url": "/sprites/dryad.png"
       },
       {
         "id": 15,
         "name": "Harpie",
-        "url": "/src/sprites/harpie.png"
+        "url": "/sprites/harpie.png"
       },
       {
         "id": 17,
         "name": "Gran Battalion",
-        "url": "/src/sprites/granbattalion.png"
+        "url": "/sprites/granbattalion.png"
       },
       {
         "id": 18,
         "name": "Lady Zombie",
-        "url": "/src/sprites/ladyzombie.png"
+        "url": "/sprites/ladyzombie.png"
       },
       {
         "id": 19,
         "name": "Sanki",
-        "url": "/src/sprites/sanki.png"
+        "url": "/sprites/sanki.png"
       },
       {
         "id": 20,
         "name": "Fukei",
-        "url": "/src/sprites/fukei.png"
+        "url": "/sprites/fukei.png"
       },
       {
         "id": 21,
         "name": "Orc",
-        "url": "/src/sprites/orc.png"
+        "url": "/sprites/orc.png"
       },
       {
         "id": 22,
         "name": "Oshichi",
-        "url": "/src/sprites/oshichi.png"
+        "url": "/sprites/oshichi.png"
       },
       {
         "id": 23,
         "name": "Bodyconian",
-        "url": "/src/sprites/bodyconian.png"
+        "url": "/sprites/bodyconian.png"
       },
       {
         "id": 24,
         "name": "Zombie Cop",
-        "url": "/src/sprites/zombiecop.png"
+        "url": "/sprites/zombiecop.png"
       },
       {
         "id": 25,
         "name": "Cyak",
-        "url": "/src/sprites/cyak.png",
+        "url": "/sprites/cyak.png",
         "extra": "Rare Spawn",
         "location": "Shinjuku Underground B1F"
       },
       {
         "id": 26,
         "name": "Imp",
-        "url": "/src/sprites/imp.png"
+        "url": "/sprites/imp.png"
       },
       {
         "id": 27,
         "name": "Jack Frost",
-        "url": "/src/sprites/jackfrost.png"
+        "url": "/sprites/jackfrost.png"
       },
       {
         "id": 28,
         "name": "Jack Lantern",
-        "url": "/src/sprites/pyrojack.png"
+        "url": "/sprites/pyrojack.png"
       },
       {
         "id": 29,
         "name": "Slime",
-        "url": "/src/sprites/slime.png"
+        "url": "/sprites/slime.png"
       },
       {
         "id": 30,
         "name": "Forneus",
-        "url": "/src/sprites/forneus.png"
+        "url": "/sprites/forneus.png"
       },
       {
         "id": 31,
         "name": "Gamigin",
-        "url": "/src/sprites/gamigin.png"
+        "url": "/sprites/gamigin.png"
       },
       {
         "id": 32,
         "name": "Bogle",
-        "url": "/src/sprites/bogle.png"
+        "url": "/sprites/bogle.png"
       },
       {
         "id": 33,
         "name": "Ghoul",
-        "url": "/src/sprites/ghoul.png"
+        "url": "/sprites/ghoul.png"
       },
       {
         "id": 34,
         "name": "Lemures",
-        "url": "/src/sprites/lemures.png"
+        "url": "/sprites/lemures.png"
       },
       {
         "id": 35,
         "name": "Shade",
-        "url": "/src/sprites/shade.png",
+        "url": "/sprites/shade.png",
         "extra": "Gotou fight"
       },
       {
         "id": 36,
         "name": "Zombie Army",
-        "url": "/src/sprites/zombiearmy.png"
+        "url": "/sprites/zombiearmy.png"
       },
       {
         "id": 37,
         "name": "Baykok",
-        "url": "/src/sprites/baykok.png"
+        "url": "/sprites/baykok.png"
       },
       {
         "id": 38,
         "name": "Angel",
-        "url": "/src/sprites/angel.png"
+        "url": "/sprites/angel.png"
       },
       {
         "id": 39,
         "name": "Fachan",
-        "url": "/src/sprites/fachan.png"
+        "url": "/sprites/fachan.png"
       },
       {
         "id": 40,
         "name": "Cu Sith",
-        "url": "/src/sprites/cusith.png"
+        "url": "/sprites/cusith.png"
       },
       {
         "id": 41,
         "name": "Spartoi",
-        "url": "/src/sprites/spartoi.png"
+        "url": "/sprites/spartoi.png"
       },
       {
         "id": 42,
         "name": "Nue",
-        "url": "/src/sprites/nue.png",
+        "url": "/sprites/nue.png",
         "extra": "Gotou fight"
       },
       {
         "id": 43,
         "name": "Pisaca",
-        "url": "/src/sprites/pisaca.png"
+        "url": "/sprites/pisaca.png"
       },
       {
         "id": 44,
         "name": "Azumi",
-        "url": "/src/sprites/azumi.png"
+        "url": "/sprites/azumi.png"
       },
       {
         "id": 45,
         "name": "Kamikaze Fighter",
-        "url": "/src/sprites/kamikazefighter.png"
+        "url": "/sprites/kamikazefighter.png"
       },
       {
         "id": 46,
         "name": "Bigfoot",
-        "url": "/src/sprites/bigfoot.png",
+        "url": "/sprites/bigfoot.png",
         "location": "Echo Building",
         "extra" : "Rare Spawn"
       }
@@ -242,697 +242,697 @@
       {
         "id": 47,
         "name": "Kinnari",
-        "url": "/src/sprites/kinnari.png"
+        "url": "/sprites/kinnari.png"
       },
       {
         "id": 48,
         "name": "Gandharva",
-        "url": "/src/sprites/gandharva.png"
+        "url": "/sprites/gandharva.png"
       },
       {
         "id": 49,
         "name": "Nekomata",
-        "url": "/src/sprites/nekomata.png"
+        "url": "/sprites/nekomata.png"
       },
       {
         "id": 50,
         "name": "Bugaboo",
-        "url": "/src/sprites/bugaboo.png"
+        "url": "/sprites/bugaboo.png"
       },
       {
         "id": 51,
         "name": "Tsuchigumo",
-        "url": "/src/sprites/tsuchigumo.png"
+        "url": "/sprites/tsuchigumo.png"
       },
       {
         "id": 52,
         "name": "Tanki",
-        "url": "/src/sprites/tanki.png",
+        "url": "/sprites/tanki.png",
         "extra": "Guaranteed Spawn",
         "location": "Kongou Shinkai"
       },
       {
         "id": 53,
         "name": "Apsaras",
-        "url": "/src/sprites/apsaras.png"
+        "url": "/sprites/apsaras.png"
       },
       {
         "id": 54,
         "name": "Berith",
-        "url": "/src/sprites/berith.png"
+        "url": "/sprites/berith.png"
       },
       {
         "id": 55,
         "name": "Cockatrice",
-        "url": "/src/sprites/cockatrice.png"
+        "url": "/sprites/cockatrice.png"
       },
       {
         "id": 56,
         "name": "Fanatic",
-        "url": "/src/sprites/fanatic.png"
+        "url": "/sprites/fanatic.png"
       },
       {
         "id": 57,
         "name": "Execution Rider",
-        "url": "/src/sprites/executionrider.png"
+        "url": "/sprites/executionrider.png"
       },
       {
         "id": 58,
         "name": "Bit Ball",
-        "url": "/src/sprites/bitball.png"
+        "url": "/sprites/bitball.png"
       },
       {
         "id": 59,
         "name": "Rusalka",
-        "url": "/src/sprites/rusalka.png"
+        "url": "/sprites/rusalka.png"
       },
       {
         "id": 60,
         "name": "Archangel",
-        "url": "/src/sprites/archangel.png",
+        "url": "/sprites/archangel.png",
         "extra" : "Rare Spawn",
         "location": "Shibuya 1F"
       },
       {
         "id": 61,
         "name": "T93G",
-        "url": "/src/sprites/t93g.png"
+        "url": "/sprites/t93g.png"
       },
       {
         "id": 62,
         "name": "Man Eater",
-        "url": "/src/sprites/maneater.png"
+        "url": "/sprites/maneater.png"
       },
       {
         "id": 63,
         "name": "Worm",
-        "url": "/src/sprites/worm.png"
+        "url": "/sprites/worm.png"
       },
       {
         "id": 64,
         "name": "Temple Knight",
-        "url": "/src/sprites/templeknight.png"
+        "url": "/sprites/templeknight.png"
       },
       {
         "id": 65,
         "name": "Larvae",
-        "url": "/src/sprites/larvae.png"
+        "url": "/sprites/larvae.png"
       },
       {
         "id": 66,
         "name": "War Cat",
-        "url": "/src/sprites/warcat.png"
+        "url": "/sprites/warcat.png"
       },
       {
         "id": 67,
         "name": "Kelpie",
-        "url": "/src/sprites/kelpie.png"
+        "url": "/sprites/kelpie.png"
       },
       {
         "id": 68,
         "name": "Momunofu",
-        "url": "/src/sprites/momunofu.png"
+        "url": "/sprites/momunofu.png"
       },
       {
         "id": 69,
         "name": "Nightmare",
-        "url": "/src/sprites/nightmare.png"
+        "url": "/sprites/nightmare.png"
       },
       {
         "id": 70,
         "name": "T95CP",
-        "url": "/src/sprites/t95cp.png"
+        "url": "/sprites/t95cp.png"
       },
       {
         "id": 71,
         "name": "Dwarf",
-        "url": "/src/sprites/dwarf.png"
+        "url": "/sprites/dwarf.png"
       },
       {
         "id": 72,
         "name": "Elf",
-        "url": "/src/sprites/elf.png"
+        "url": "/sprites/elf.png"
       },
       {
         "id": 72,
         "name": "Atsuyu",
-        "url": "/src/sprites/atsuyu.png"
+        "url": "/sprites/atsuyu.png"
       },
       {
         "id": 73,
         "name": "Fallen Priest",
-        "url": "/src/sprites/fallenpriest.png"
+        "url": "/sprites/fallenpriest.png"
       },
       {
         "id": 74,
         "name": "Wendigo",
-        "url": "/src/sprites/wendigo.png"
+        "url": "/sprites/wendigo.png"
       },
       {
         "id": 75,
         "name": "Stonka",
-        "url": "/src/sprites/stonka.png"
+        "url": "/sprites/stonka.png"
       },
       {
         "id": 76,
         "name": "Lilim",
-        "url": "/src/sprites/lilim.png"
+        "url": "/sprites/lilim.png"
       },
       {
         "id": 77,
         "name": "Phantom",
-        "url": "/src/sprites/phantom.png",
+        "url": "/sprites/phantom.png",
         "extra": "Devil Summoner 3",
         "location": "Ueno 1F"
       },
       {
         "id": 78,
         "name": "Kokachu",
-        "url": "/src/sprites/kokachu.png"
+        "url": "/sprites/kokachu.png"
       },
       {
         "id": 79,
         "name": "Yaksini",
-        "url": "/src/sprites/yaksini.png"
+        "url": "/sprites/yaksini.png"
       },
       {
         "id": 80,
         "name": "Sytry",
-        "url": "/src/sprites/sytry.png"
+        "url": "/sprites/sytry.png"
       },
       {
         "id": 81,
         "name": "T95D",
-        "url": "/src/sprites/t95d.png"
+        "url": "/sprites/t95d.png"
       },
       {
         "id": 82,
         "name": "Black Ooze",
-        "url": "/src/sprites/blackooze.png"
+        "url": "/sprites/blackooze.png"
       },
       {
         "id": 83,
         "name": "Lamia",
-        "url": "/src/sprites/lamia.png"
+        "url": "/sprites/lamia.png"
       },
       {
         "id": 84,
         "name": "Purski",
-        "url": "/src/sprites/purski.png"
+        "url": "/sprites/purski.png"
       },
       {
         "id": 85,
         "name": "Badb Catha",
-        "url": "/src/sprites/badbcatha.png"
+        "url": "/sprites/badbcatha.png"
       },
       {
         "id": 86,
         "name": "Isora",
-        "url": "/src/sprites/isora.png"
+        "url": "/sprites/isora.png"
       },
       {
         "id": 87,
         "name": "Sawo Bahku",
-        "url": "/src/sprites/sawobahku.png",
+        "url": "/sprites/sawobahku.png",
         "extra" : "Devil Summoner 2",
         "location" : "Shingawa 4F"
       },
       {
         "id": 88,
         "name": "Kwancha",
-        "url": "/src/sprites/kwancha.png"
+        "url": "/sprites/kwancha.png"
       },
       {
         "id": 89,
         "name": "Tammuz",
-        "url": "/src/sprites/tammuz.png"
+        "url": "/sprites/tammuz.png"
       },
       {
         "id": 90,
         "name": "Orobas",
-        "url": "/src/sprites/orobas.png"
+        "url": "/sprites/orobas.png"
       },
       {
         "id": 91,
         "name": "Chulruk",
-        "url": "/src/sprites/chulruk.png"
+        "url": "/sprites/chulruk.png"
       },
       {
         "id": 92,
         "name": "Hobgoblin",
-        "url": "/src/sprites/hobgoblin.png"
+        "url": "/sprites/hobgoblin.png"
       },
       {
         "id": 93,
         "name": "Taraka",
-        "url": "/src/sprites/taraka.png"
+        "url": "/sprites/taraka.png"
       },
       {
         "id": 94,
         "name": "Lakhe",
-        "url": "/src/sprites/lakhe.png",
+        "url": "/sprites/lakhe.png",
         "extra" :"Devil Summoner 1",
         "location" : "Ginza B1F"
       },
       {
         "id": 95,
         "name": "Wyrm",
-        "url": "/src/sprites/wyrm.png",
+        "url": "/sprites/wyrm.png",
         "extra" :"Devil Summoner 4",
         "location" : "Tokyo Destiny Land 4F"      
       },
       {
         "id": 96,
         "name": "Magus",
-        "url": "/src/sprites/magus.png"
+        "url": "/sprites/magus.png"
       },
       {
         "id": 97,
         "name": "Watcher",
-        "url": "/src/sprites/watcher.png"
+        "url": "/sprites/watcher.png"
       },
       {
         "id": 98,
         "name": "Ibaragi Douji",
-        "url": "/src/sprites/ibaragidouji.png"
+        "url": "/sprites/ibaragidouji.png"
       },
       {
         "id": 99,
         "name": "Gozuki",
-        "url": "/src/sprites/gozuki.png"
+        "url": "/sprites/gozuki.png"
       },
       {
         "id": 100,
         "name": "Leonard",
-        "url": "/src/sprites/leonard.png"
+        "url": "/sprites/leonard.png"
       },
       {
         "id": 101,
         "name": "Gorgon",
-        "url": "/src/sprites/gorgon.png"
+        "url": "/sprites/gorgon.png"
       },
       {
         "id": 102,
         "name": "Sanni Yaka",
-        "url": "/src/sprites/sanniyaka.png",
+        "url": "/sprites/sanniyaka.png",
         "extra" :"Devil Summoner 3"
       },
       {
         "id": 103,
         "name": "Oni Jorou",
-        "url": "/src/sprites/onijorou.png"
+        "url": "/sprites/onijorou.png"
       },
       {
         "id": 104,
         "name": "Mezuki",
-        "url": "/src/sprites/mezuki.png"
+        "url": "/sprites/mezuki.png"
       },
       {
         "id": 105,
         "name": "Raksha Lango",
-        "url": "/src/sprites/rakshalango.png"
+        "url": "/sprites/rakshalango.png"
       },
       {
         "id": 106,
         "name": "Senri",
-        "url": "/src/sprites/senri.png"
+        "url": "/sprites/senri.png"
       },
       {
         "id": 107,
         "name": "Werewolf",
-        "url": "/src/sprites/werewolf.png"
+        "url": "/sprites/werewolf.png"
       },
       {
         "id": 108,
         "name": "Naga Raja",
-        "url": "/src/sprites/nagaraja.png"
+        "url": "/sprites/nagaraja.png"
       },
       {
         "id": 109,
         "name": "Loa",
-        "url": "/src/sprites/loa.png"
+        "url": "/sprites/loa.png"
       },
       {
         "id": 110,
         "name": "Gurr",
-        "url": "/src/sprites/gurr.png"
+        "url": "/sprites/gurr.png"
       },
       {
         "id": 111,
         "name": "Decarabia",
-        "url": "/src/sprites/decarabia.png"
+        "url": "/sprites/decarabia.png"
       },
       {
         "id": 112,
         "name": "Wyvern",
-        "url": "/src/sprites/wyvern.png"
+        "url": "/sprites/wyvern.png"
       },
       {
         "id": 113,
         "name": "Sarutahiko",
-        "url": "/src/sprites/sarutahiko.png"
+        "url": "/sprites/sarutahiko.png"
       },
       {
         "id": 114,
         "name": "Cerberus",
-        "url": "/src/sprites/cerberus.png"
+        "url": "/sprites/cerberus.png"
       },
       {
         "id": 115,
         "name": "Onkot",
-        "url": "/src/sprites/onkot.png"
+        "url": "/sprites/onkot.png"
       },
       {
         "id": 116,
         "name": "Backbeard",
-        "url": "/src/sprites/backbeard.png",
+        "url": "/sprites/backbeard.png",
         "extra":"Rare Spawn",
         "location" : "Ginza 1F"
       },
       {
         "id": 117,
         "name": "Legion",
-        "url": "/src/sprites/legion.png",
+        "url": "/sprites/legion.png",
         "extra":"Devil Summoner 3"
       },
       {
         "id": 118,
         "name": "Turdak",
-        "url": "/src/sprites/turdak.png"
+        "url": "/sprites/turdak.png"
       },
       {
         "id": 119,
         "name": "Nyi Callon",
-        "url": "/src/sprites/nyicallon.png"
+        "url": "/sprites/nyicallon.png"
       },
       {
         "id": 120,
         "name": "Barbegazi",
-        "url": "/src/sprites/barbegazi.png"
+        "url": "/sprites/barbegazi.png"
       },
       {
         "id": 121,
         "name": "Dakini",
-        "url": "/src/sprites/dakini.png"
+        "url": "/sprites/dakini.png"
       },
       {
         "id": 122,
         "name": "Vetala",
-        "url": "/src/sprites/vetala.png"
+        "url": "/sprites/vetala.png"
       },
       {
         "id": 123,
         "name": "Nataku",
-        "url": "/src/sprites/nataku.png"
+        "url": "/sprites/nataku.png"
       },
       {
         "id": 124,
         "name": "Troll",
-        "url": "/src/sprites/troll.png"
+        "url": "/sprites/troll.png"
       },
       {
         "id": 125,
         "name": "Manticore",
-        "url": "/src/sprites/manticore.png",
+        "url": "/sprites/manticore.png",
         "extra":"Devil Summoner 4"
       },
       {
         "id": 126,
         "name": "Rakshasa",
-        "url": "/src/sprites/rakshasa.png",
+        "url": "/sprites/rakshasa.png",
         "extra":"Devil Summoner 4"
       },
       {
         "id": 127,
         "name": "Giant",
-        "url": "/src/sprites/giant.png"
+        "url": "/sprites/giant.png"
       },
       {
         "id": 128,
         "name": "Ose",
-        "url": "/src/sprites/ose.png"
+        "url": "/sprites/ose.png"
       },
       {
         "id": 129,
         "name": "Shuten Douji",
-        "url": "/src/sprites/shutendouji.png"
+        "url": "/sprites/shutendouji.png"
       },
       {
         "id": 130,
         "name": "Incubus",
-        "url": "/src/sprites/incubus.png"
+        "url": "/sprites/incubus.png"
       },
       {
         "id": 131,
         "name": "Yaksha",
-        "url": "/src/sprites/yaksha.png"
+        "url": "/sprites/yaksha.png"
       },
       {
         "id": 132,
         "name": "Tengu",
-        "url": "/src/sprites/tengu.png"
+        "url": "/sprites/tengu.png"
       },
       {
         "id": 134,
         "name": "Orcus",
-        "url": "/src/sprites/orcus.png"
+        "url": "/sprites/orcus.png"
       }
     ],
     "Flooded Tokyo": [
       {
         "id": 135,
         "name": "Tamamo",
-        "url": "/src/sprites/tamamo.png"
+        "url": "/sprites/tamamo.png"
       },
       {
         "id": 136,
         "name": "Mishaguji",
-        "url": "/src/sprites/mishaguji.png"
+        "url": "/sprites/mishaguji.png"
       },
       {
         "id": 137,
         "name": "Genbu",
-        "url": "/src/sprites/genbu.png"
+        "url": "/sprites/genbu.png"
       },
       {
         "id": 138,
         "name": "Siren",
-        "url": "/src/sprites/siren.png"
+        "url": "/sprites/siren.png"
       },
       {
         "id": 139,
         "name": "Yurlungur",
-        "url": "/src/sprites/yurlungur.png"
+        "url": "/sprites/yurlungur.png"
       },
       {
         "id": 140,
         "name": "Nagasunehiko",
-        "url": "/src/sprites/nagasunehiko.png"
+        "url": "/sprites/nagasunehiko.png"
       },
       {
         "id": 141,
         "name": "Scylla",
-        "url": "/src/sprites/scylla.png"
+        "url": "/sprites/scylla.png"
       },
       {
         "id": 142,
         "name": "Atlas",
-        "url": "/src/sprites/atlas.png"
+        "url": "/sprites/atlas.png"
       },
       {
         "id": 143,
         "name": "Gryphon",
-        "url": "/src/sprites/gryphon.png"
+        "url": "/sprites/gryphon.png"
       },
       {
         "id": 144,
         "name": "Quetzalcoatl",
-        "url": "/src/sprites/quetzalcoatl.png"
+        "url": "/sprites/quetzalcoatl.png"
       },
       {
         "id": 145,
         "name": "Chorozon",
-        "url": "/src/sprites/chorozon.png"
+        "url": "/sprites/chorozon.png"
       },
       {
         "id": 146,
         "name": "Cyclops",
-        "url": "/src/sprites/cyclops.png"
+        "url": "/sprites/cyclops.png"
       },
       {
         "id": 147,
         "name": "Kraken",
-        "url": "/src/sprites/kraken.png"
+        "url": "/sprites/kraken.png"
       },
       {
         "id": 148,
         "name": "Basilisk",
-        "url": "/src/sprites/basilisk.png"
+        "url": "/sprites/basilisk.png"
       },
       {
         "id": 149,
         "name": "Marchosias",
-        "url": "/src/sprites/marchosias.png"
+        "url": "/sprites/marchosias.png"
       },
       {
         "id": 150,
         "name": "Arahabaki",
-        "url": "/src/sprites/arahabaki.png"
+        "url": "/sprites/arahabaki.png"
       },
       {
         "id": 151,
         "name": "Dark Priest",
-        "url": "/src/sprites/darkpriest.png"
+        "url": "/sprites/darkpriest.png"
       },
       {
         "id": 152,
         "name": "Girimerkhala",
-        "url": "/src/sprites/girimerkhala.png"
+        "url": "/sprites/girimerkhala.png"
       },
       {
         "id": 153,
         "name": "Hresvelgr",
-        "url": "/src/sprites/hresvelgr.png"
+        "url": "/sprites/hresvelgr.png"
       },
       {
         "id": 154,
         "name": "Scanner",
-        "url": "/src/sprites/scanner.png"
+        "url": "/sprites/scanner.png"
       },
       {
         "id": 155,
         "name": "Itzamna",
-        "url": "/src/sprites/itzamna.png"
+        "url": "/sprites/itzamna.png"
       },
       {
         "id": 156,
         "name": "Lich",
-        "url": "/src/sprites/lich.png"
+        "url": "/sprites/lich.png"
       },
       {
         "id": 157,
         "name": "Serpent",
-        "url": "/src/sprites/serpent.png"
+        "url": "/sprites/serpent.png"
       },
       {
         "id": 158,
         "name": "Succubus",
-        "url": "/src/sprites/succubus.png"
+        "url": "/sprites/succubus.png"
       },
       {
         "id": 159,
         "name": "Rangda",
-        "url": "/src/sprites/rangda.png"
+        "url": "/sprites/rangda.png"
       },
       {
         "id": 160,
         "name": "Tam Lin",
-        "url": "/src/sprites/tamlin.png"
+        "url": "/sprites/tamlin.png"
       },
       {
         "id": 161,
         "name": "Kinnara",
-        "url": "/src/sprites/kinnara.png"
+        "url": "/sprites/kinnara.png"
       },
       {
         "id": 162,
         "name": "Assassin",
-        "url": "/src/sprites/assassin.png"
+        "url": "/sprites/assassin.png"
       },
       {
         "id": 163,
         "name": "Vritra",
-        "url": "/src/sprites/vritra.png"
+        "url": "/sprites/vritra.png"
       },
       {
         "id": 164,
         "name": "Yamata-no-Orochi",
-        "url": "/src/sprites/orochi.png"
+        "url": "/sprites/orochi.png"
       },
       {
         "id": 165,
         "name": "Samael",
-        "url": "/src/sprites/samael.png"
+        "url": "/sprites/samael.png"
       },
       {
         "id": 166,
         "name": "Cu Chulainn",
-        "url": "/src/sprites/cuchulainn.png"
+        "url": "/sprites/cuchulainn.png"
       },
       {
         "id": 167,
         "name": "Fafnir",
-        "url": "/src/sprites/fafnir.png"
+        "url": "/sprites/fafnir.png"
       },
       {
         "id": 168,
         "name": "Abaddon",
-        "url": "/src/sprites/abaddon.png"
+        "url": "/sprites/abaddon.png"
       },
       {
         "id": 169,
         "name": "Ganesha",
-        "url": "/src/sprites/ganesha.png"
+        "url": "/sprites/ganesha.png"
       },
       {
         "id": 170,
         "name": "Pendragon",
-        "url": "/src/sprites/pendragon.png"
+        "url": "/sprites/pendragon.png"
       },
       {
         "id": 171,
         "name": "Senko",
-        "url": "/src/sprites/senko.png"
+        "url": "/sprites/senko.png"
       },
       {
         "id": 172,
         "name": "Hariti",
-        "url": "/src/sprites/hariti.png"
+        "url": "/sprites/hariti.png"
       },
       {
         "id": 173,
         "name": "Fenrir",
-        "url": "/src/sprites/fenrir.png"
+        "url": "/sprites/fenrir.png"
       },
       {
         "id": 174,
         "name": "Tezcatlipoca",
-        "url": "/src/sprites/tezcatlipoca.png"
+        "url": "/sprites/tezcatlipoca.png"
       },
       {
         "id": 175,
         "name": "Vampire",
-        "url": "/src/sprites/vampire.png"
+        "url": "/sprites/vampire.png"
       },
       {
         "id": 176,
         "name": "Fleurety",
-        "url": "/src/sprites/fleurety.png"
+        "url": "/sprites/fleurety.png"
       },
       {
         "id": 177,
         "name": "Hanuman",
-        "url": "/src/sprites/hanuman.png"
+        "url": "/sprites/hanuman.png"
       },
       {
         "id": 178,
         "name": "Oberon",
-        "url": "/src/sprites/oberon.png"
+        "url": "/sprites/oberon.png"
       },
       {
         "id": 179,
         "name": "Flauros",
-        "url": "/src/sprites/flauros.png"
+        "url": "/sprites/flauros.png"
       },
       {
         "id": 180,
         "name": "Kali",
-        "url": "/src/sprites/kali.png"
+        "url": "/sprites/kali.png"
       },
       {
         "id": 181,
         "name": "Toutetsu",
-        "url": "/src/sprites/toutetsu.png"
+        "url": "/sprites/toutetsu.png"
       }
     ]
   }
