@@ -7,15 +7,21 @@ import {
     TrackerContent,
     TrackerAreaBoxes,
     FooterContainer,
+    ButtonContainer,
+    TrackerBoxesDiv
 } from './tracker.styles';
 import ResetButton from './reset-button.component'
 
-function Tracker() {
+function Tracker({changeLightMode}) {
     const [clickedDemons, setClickedDemons] = useState(() => {
         // Load clicked demons from local storage or default to an empty object
         const storedClickedDemons = localStorage.getItem('smt1Demons');
         return storedClickedDemons ? JSON.parse(storedClickedDemons) : {};
     });
+    const [gridSize, setGridSize] = useState("medium");
+    const [showText, setShowText] = useState(true);
+
+
 
     useEffect(() => {
         const saveToLocalStorage = () => {
@@ -83,6 +89,7 @@ function Tracker() {
         };
         reader.readAsText(file);
     };
+
     
     
 
@@ -90,48 +97,64 @@ function Tracker() {
         <TrackerRootContainer>
             <header>
                 <h1>Shin Megami Tensei 1 - Demon Tracker</h1>
-                <h4>Made by <a href="https://sioneus.me">sioneus</a>. Thank you to <a href="https://www.megatenwiki.com">Megaten Wiki</a> for the demon sprites.</h4>
+                <h3>Made by <a href="https://sioneus.me">sioneus</a>. Thank you to <a href="https://www.megatenwiki.com">Megaten Wiki</a> for the demon sprites.</h3>
             </header>
+            <ButtonContainer>
+                <h4>Hover over the demons to see a location where they spawn. </h4>
+                <h4>Settings buttons:</h4>
+                <button className="tracker-button" data-tooltip="Smaller Grid" onClick={() => setGridSize("small")}>🔽</button>
+                <button className="tracker-button" data-tooltip="Bigger Grid" onClick={() => setGridSize("large")}>🔼</button>
+            </ButtonContainer>
+
             <TrackerContent>
             <h3>199X</h3>
-            <TrackerListContainer>
+            <TrackerListContainer key={"TrackerListContainer"+"199X"} size={gridSize}>
                 {Object.values(data["199X"]).map((demon) => {
-                    return (<div key={demon.id} onClick={() => handleDemonClick(demon.id)} >
-                        
-                        <TrackerAreaBoxes className={clickedDemons[demon.id] ? "clicked" : ""}>
-                            <img src={demon.url} alt={demon.name}></img>
-                            <h4>{demon.name}</h4>
-                        </TrackerAreaBoxes>
-                        
-                    </div>)
+                    return (
+                        <TrackerBoxesDiv key={demon.id} onClick={() => handleDemonClick(demon.id)}>
+                            <TrackerAreaBoxes key={"TrackerAreaBox"+demon.id} className={clickedDemons[demon.id] ? "clicked" : ""}>
+                                <img key={"img"+demon.id}src={demon.url} alt={demon.name} />
+                                <h4 key={"name"+demon.id}>{demon.name}</h4>
+                            </TrackerAreaBoxes>
+                            {demon.extra && <span key={"extra"+demon.id} className="extra-icon" data-tooltip={demon.extra}>⭐</span>}
+                                
+                            <span key={"location"+demon.id} className="location-tooltip">{demon.location}</span>
+                        </TrackerBoxesDiv>
+                    );
                 })}
             </TrackerListContainer>
 
             <h3>Pre-Flood Tokyo</h3>
-            <TrackerListContainer>
+            <TrackerListContainer key={"TrackerListContainer"+"Pre-Flood Tokyo"} size={gridSize}>
                 {Object.values(data["Pre-Flood Tokyo"]).map((demon) => {
-                    return (<div key={demon.id} onClick={() => handleDemonClick(demon.id)} >
-                        
-                    <TrackerAreaBoxes className={clickedDemons[demon.id] ? "clicked" : ""}>
-                        <img src={demon.url} alt={demon.name}></img>
-                        <h4>{demon.name}</h4>
-                    </TrackerAreaBoxes>
-                    
-                </div>)
+                    return (
+                        <TrackerBoxesDiv key={demon.id} onClick={() => handleDemonClick(demon.id)}>
+                            <TrackerAreaBoxes key={"TrackerAreaBox"+demon.id} className={clickedDemons[demon.id] ? "clicked" : ""}>
+                                <img key={"img"+demon.id}src={demon.url} alt={demon.name} />
+                                <h4 key={"name"+demon.id}>{demon.name}</h4>
+                            </TrackerAreaBoxes>
+                            {demon.extra && <span key={"extra"+demon.id} className="extra-icon" data-tooltip={demon.extra}>⭐</span>}
+                                
+                            <span key={"location"+demon.id} className="location-tooltip">{demon.location}</span>
+                        </TrackerBoxesDiv>
+                    );
                 })}
             </TrackerListContainer>
 
             <h3>Flooded Tokyo</h3>
-            <TrackerListContainer>
+            <TrackerListContainer  key={"TrackerListContainer"+"Flooded Tokyo"} size={gridSize}>
                 {Object.values(data["Flooded Tokyo"]).map((demon) => {
-                        return (<div key={demon.id} onClick={() => handleDemonClick(demon.id)} >
-                            
-                            <TrackerAreaBoxes className={clickedDemons[demon.id] ? "clicked" : ""}>
-                                <img src={demon.url} alt={demon.name}></img>
-                                <h4>{demon.name}</h4>
-                            </TrackerAreaBoxes>
-                            
-                        </div>)
+                        return (
+                            <TrackerBoxesDiv key={demon.id} onClick={() => handleDemonClick(demon.id)}>
+                                <TrackerAreaBoxes key={"TrackerAreaBox"+demon.id} className={clickedDemons[demon.id] ? "clicked" : ""}>
+                                    <img key={"img"+demon.id}src={demon.url} alt={demon.name} />
+                                    <h4 key={"name"+demon.id}>{demon.name}</h4>
+                                </TrackerAreaBoxes>
+                                {demon.extra && <span key={"extra"+demon.id} className="extra-icon" data-tooltip={demon.extra}>⭐</span>}
+                                    
+                                <span key={"location"+demon.id} className="location-tooltip">{demon.location}</span>
+                            </TrackerBoxesDiv>
+                        );
                     })}
             </TrackerListContainer>
             </TrackerContent>

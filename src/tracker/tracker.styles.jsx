@@ -38,9 +38,65 @@ export const TrackerContent = styled.div`
 
 export const TrackerListContainer = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: ${({ size }) =>
+        size === "small" ? "repeat(auto-fit, minmax(100px, 1fr))"
+        : size === "large" ? "repeat(auto-fit, minmax(150px, 1fr))"
+        : "repeat(auto-fit, minmax(150px, 1fr))"};
     gap: 15px;
     margin: 20px;
+
+
+`
+
+export const TrackerBoxesDiv = styled.div`
+    position: relative;
+
+    .location-tooltip {
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.9);
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        opacity: 0;
+        text-overflow: wrap;
+        transition: opacity 0.2s ease-in-out;
+        pointer-events: none; /* Prevents interaction */
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+
+    
+    &:hover .location-tooltip {
+        opacity: 1;
+    }
+
+    .extra-icon {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 1.2rem;
+        color: gold;
+        cursor: pointer;
+    }
+
+    .extra-icon:hover::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        top: 0; 
+        left: -150%;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.9);
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        z-index: 100; 
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
 `
 
 export const TrackerAreaBoxes = styled.div`
@@ -61,18 +117,20 @@ export const TrackerAreaBoxes = styled.div`
     }
 
     h4 {
-        position: absolute;
-        bottom: 5px;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: center;
-        background: rgba(0, 0, 0, 0.7);
-        color: white;
-        padding: 3px 5px;
-        font-size: 0.9rem;
-        width: 100%;
-        max-width: 90%;
-    }
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 3px 5px;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 90%;
+}
+
+
 
     &:hover {
         box-shadow: 0 0 2px #9a9595;
@@ -146,4 +204,35 @@ export const FooterContainer = styled.footer`
         display: none;
     }
 `
+export const ButtonContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+
+    .tracker-button {
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: white;
+        transition: 0.2s;
+
+        &:hover {
+            color: #ffcc00;
+        }
+    }
+
+    .tracker-button:hover::after {
+        content: attr(data-tooltip);
+        position: relative;
+        transform: translateX(-50%);
+        background: rgba(255, 255, 255, 0.9);
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+`;
 
